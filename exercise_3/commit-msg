@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import sys, random
+
+commit_msg_file = sys.argv[1]
+commit_msg = open(commit_msg_file, "r").read()
+
+x = random.randint(0, 2843)
+
+print(
+    "%s\n\nHere's a random comic so you can procrastinate instead of working:\nhttps://xkcd.com/%s/"
+    % (commit_msg, str(x))
+)
+sys.exit(0)

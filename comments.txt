@@ -1,0 +1,13 @@
+Ex 3
+- does not write to temp file, maybe missing file=... in the print?
+
+Ex 2
+- works
+
+Ex 1
+
+- pytest does not run; if it ran, there are only two tests...
+
+- script 1 runs
+- script 2 runs but ugly output
+- script 3
