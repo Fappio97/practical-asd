@@ -36,6 +36,7 @@ jobs:
       - name: Checks if the Python code contained in app is conformant to the black default style guide
         run: |
           cd exercise_2/real_intermediate_test_app/
+          pip install black
           black application.py   
 
       - name: Package and install the Python application by running python -m build and pip install
